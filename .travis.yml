@@ -1,0 +1,10 @@
+os:
+  - linux
+  - osx
+language: bash
+script:
+  - bash get-archlinux-bootstrap.sh
+  - bash get-archlinux-bootstrap.sh -v 2017.01.01 -a x86_64 -r
+  - bash get-archlinux-bootstrap.sh -ct
+  - bash get-archlinux-bootstrap.sh -l
+  - bash get-archlinux-bootstrap.sh -h
